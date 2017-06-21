@@ -7,7 +7,7 @@ Thread 1: SIGABRT .... error message >
 2017-06-21 14:32:28.620 Party-App[8603:2873355] *** Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[<Party_App.PartyCell 0x7ff17f88b600> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key videoLabel.'
 *** First throw call stack:
 (
-	0   CoreFoundation                   	 0x0000000107fcbb0b __exceptionPreprocess + 171	
+	0   CoreFoundation                   	  0x0000000107fcbb0b __exceptionPreprocess + 171	
 	1   libobjc.A.dylib              	    0x000000010535d141 objc_exception_throw + 48	
 	2   CoreFoundation                      0x0000000107fcba59 -[NSException raise] + 9
 	3   Foundation                          0x0000000104e72e8b -[NSObject(NSKeyValueCoding) setValue:forKey:] + 292
